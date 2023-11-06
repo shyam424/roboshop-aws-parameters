@@ -1,3 +1,8 @@
 parameters = {
   "docdb.dev.master_username" = { type = "String", value = "docdbadmin" }
+
+  #usually the passwords are not preferred to keep it in under git repo, In organization  we manually create passwords whomever have access.
+  #In training, we keep it here for easy reference
+  ##passwords
+  "docdb.dev.master_password" = { type = "String", value = "roboshop1234" }
 }
