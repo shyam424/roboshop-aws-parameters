@@ -1,4 +1,4 @@
 default:
 	git pull
-	terrform init
+	terraform init
 	terraform apply -auto-approve
